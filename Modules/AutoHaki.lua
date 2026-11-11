@@ -1,2 +1,8 @@
 --!strict
-local AutoHaki.lua = {} -- Correção de escopo abaixo:
+local AutoHaki = {}
+
+function AutoHaki.Execute()
+	print("[GPO Hub - Abilities] Processando estado e progresso de Haki...")
+end
+
+return AutoHaki
